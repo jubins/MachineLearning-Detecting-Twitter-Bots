@@ -1,1 +1,1 @@
-This project focuses on finding if user accounts on Twitter spehere are bots or now by using Machine Learning Techniques.
+This project focuses on finding if user accounts on Twitter spehere are bots or now by using Machine Learning techniques.
