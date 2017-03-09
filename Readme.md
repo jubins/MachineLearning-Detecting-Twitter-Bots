@@ -1,1 +1,1 @@
-This project focuses on finding if user accounts on Twitter spehere are bots or now by using Machine Learning techniques.
+By using Machine Learning techniques this project focuses on finding if user accounts on Twitter sphere are bots or not.
