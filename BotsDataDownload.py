@@ -45,7 +45,7 @@ def get_bots_list():
 
 def real_users_list():
     real_users = []
-    for users in tweepy.Cursor(api.list_members, 'BuzzEdition', 'the-celebrity-list').items():
+    for users in tweepy.Cursor(api.list_members, 'Scobleizer', 'most-influential-in-tech').items():
         real_users.append (users._json['screen_name'])
     return real_users[:50]
 
