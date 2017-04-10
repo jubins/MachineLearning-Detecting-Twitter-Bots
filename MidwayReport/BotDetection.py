@@ -34,7 +34,6 @@ from sklearn.model_selection import train_test_split
 train_df, test_df = train_test_split(df, test_size=0.2)
 print("Randomly splitting the dataset into training and test, and training classifiers...\n")
 
-
 #Using Decision Tree Classifier
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
