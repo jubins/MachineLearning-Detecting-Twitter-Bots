@@ -26,4 +26,3 @@ Twitter bot is a program used to produce automated posts, follow Twitter users o
 
 
 ### Thank you
-Thank you for this great challenge. I have worked very hard on this and I hope to be part of Insight Data Engineering.
