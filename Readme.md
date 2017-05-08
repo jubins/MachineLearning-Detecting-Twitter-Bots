@@ -4,13 +4,12 @@ Twitter bot is a program used to produce automated posts, follow Twitter users o
 
 # Table of Contents
 ### 1. Depenedencies
+Python 3, Pandas, Numpy, Seaborn, MatplotLib, Sklearn
+
 ### 2. Code
+The code and datasets can be found under 'Final Project and Code' folder.
+
 ### 3. Repository Structure
-
-# Dependencies
-
-
-# Code
 
 ### Feature 1: 
 
