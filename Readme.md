@@ -11,20 +11,6 @@ Python 3, Pandas, Numpy, Seaborn, MatplotLib, Sklearn
 ### 2. Code
 The code and datasets can be found under 'Final Project and Code' folder.
 
-### 3. Repository Structure
-
-### Feature 1: 
-
-
-### Feature 2 
-
-
-
-### Feature 3 
-
-
-### Feature 4 
-
 
 # Thank you
 Thank you for visiting this repository and looking at this project. Please feel free to contribute and take our analysis further.
