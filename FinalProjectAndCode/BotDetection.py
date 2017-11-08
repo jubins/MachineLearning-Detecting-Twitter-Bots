@@ -153,10 +153,10 @@ class twitter_bot(object):
 
 if __name__ == '__main__':
     start = time.time()
-    print("Training the classifier. Please wait 30 seconds.")
-    filepath = 'https://raw.githubusercontent.com/jubins/ML-TwitterBotDetection/master/FinalProjectAndCode/kaggle_data/'
+    print("Training the Bot detection classifier. Please wait a few seconds.")
+    filepath = 'https://raw.githubusercontent.com/jubins/MachineLearning-Detecting-Twitter-Bots/master/FinalProjectAndCode/kaggle_data/'
     train_df = pd.read_csv(filepath + 'training_data_2_csv_UTF.csv')
-    test_df = pd.read_csv(filepath + 'test_data_4_students.csv', sep='\t')
+    test_df = pd.read_csv(filepath + 'test_data_4_students.csv', sep='\t', encoding='ISO-8859-1')
     print("Train Accuracy: ", twitter_bot.get_accuracy_score(train_df)[0])
     print("Test Accuracy: ", twitter_bot.get_accuracy_score(train_df)[1])
 
@@ -164,7 +164,7 @@ if __name__ == '__main__':
     predicted_df = twitter_bot.bot_prediction_algorithm(test_df)
     # preparing subission file
     predicted_df.to_csv('submission.csv', index=False)
-    print("Predicted results saved to submission.csv. File shape: {}".format(predicted_df.shape))
+    print("Predicted results are saved to submission.csv. File shape: {}".format(predicted_df.shape))
     #ssss: " ,twitter_bot.get_bot_predictions(test_df))
     twitter_bot.plot_roc_curve(train_df)
     print("Time duration: {} seconds.".format(time.time()-start))
